@@ -1,0 +1,23 @@
+.debug-mode :is(*, *::before, *::after) {
+  outline: solid 1px;
+}
+
+.debug-mode :is(*:nth-child(5n + 0), *::before:nth-child(5n + 0), *::after:nth-child(5n + 0)) {
+  outline-color: #f00;
+}
+
+.debug-mode :is(*:nth-child(5n + 1), *::before:nth-child(5n + 1), *::after:nth-child(5n + 1)) {
+  outline-color: #f0f;
+}
+
+.debug-mode :is(*:nth-child(5n + 2), *::before:nth-child(5n + 2), *::after:nth-child(5n + 2)) {
+  outline-color: #0c0;
+}
+
+.debug-mode :is(*:nth-child(5n + 3), *::before:nth-child(5n + 3), *::after:nth-child(5n + 3)) {
+  outline-color: #08f;
+}
+
+.debug-mode :is(*:nth-child(5n + 4), *::before:nth-child(5n + 4), *::after:nth-child(5n + 4)) {
+  outline-color: #f80;
+}
